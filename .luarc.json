@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sumneko/vscode-lua/master/setting/schema.json",
+  "runtime": {
+    "version": "LuaJIT",
+    "unicodeName": true,
+    "nonstandardSymbol": ["continue", "!", "!=", "&&", "||", "//", "/**/"],
+    "special": {
+      "include": "dofile",
+      "IncludeCS": "dofile"
+    }
+  },
+  "workspace": {
+    "checkThirdParty": false,
+    "library": [
+      "~/glua-api-snippets/library",
+      "C:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/stek/lua"
+    ]
+  },
+  "diagnostics.disable": ["duplicate-set-field"]
+}
