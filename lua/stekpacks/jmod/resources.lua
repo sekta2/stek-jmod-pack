@@ -7,6 +7,7 @@ stek.Resources.Add("jmod_aluminum", {
         color = color_white,
         material = "models/props_mining/ingot_jack_aluminum",
         model = "models/jmod/resources/ingot001.mdl",
-        carryangles = Angle(0, 0, 0)
+        carryangles = Angle(0, 0, 0),
+        sandbox_icon = "ez_resource_icons/aluminum.png"
     }
 })
