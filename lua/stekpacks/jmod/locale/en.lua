@@ -1,3 +1,3 @@
 return {
-    ["phrase1"] = "Phrase 1"
+    ["resource_jmod_aluminum"] = "Aluminum"
 }
