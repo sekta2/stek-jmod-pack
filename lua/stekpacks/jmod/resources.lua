@@ -305,7 +305,7 @@ stek.Resources.Add("jmod_coolant", {
         sandbox_name = "Coolant Bottle",
         sandbox_icon = "ez_resource_icons/coolant.png",
         info_pos_offset = Vector(0, 5.1, 0),
-        info_angle_offset = Angle(0, 0, 0), -- ЗАМЕНИТЬ после теста
+        info_angle_offset = Angle(0, 180, 90),
         info_horizontal = false,
         info_rendersize = 0.04,
         info_textcolor = Color(200, 200, 200, 150),
@@ -364,7 +364,7 @@ stek.Resources.Add("jmod_diamond", {
         carryangles = Angle(0, 180, 0),
         sandbox_icon = "ez_resource_icons/diamond.png",
         info_pos_offset = Vector(-9.7, 0, 9),
-        info_angle_offset = Angle(0, 0, 0), -- ЗАМЕНИТЬ после теста
+        info_angle_offset = Angle(0, 90, 75),
         info_horizontal = true,
         info_rendersize = 0.032,
         info_textcolor = Color(200, 200, 200, 150),
@@ -403,7 +403,7 @@ stek.Resources.Add("jmod_fissilematerial", {
         carryangles = Angle(0, 180, 0),
         sandbox_icon = "ez_resource_icons/fissile material.png",
         info_pos_offset = Vector(0, 0, 21.75),
-        info_angle_offset = Angle(0, 0, 0), -- ЗАМЕНИТЬ после теста
+        info_angle_offset = Angle(0, 90, 0),
         info_horizontal = false,
         info_rendersize = 0.06,
         info_textcolor = Color(200, 200, 200, 150),
@@ -423,8 +423,8 @@ stek.Resources.Add("jmod_glass", {
         carryangles = Angle(-90, 0, 0),
         sandbox_name = "Glass Block",
         sandbox_icon = "ez_resource_icons/glass.png",
-        info_pos_offset = Vector(0, 1, 6),
-        info_angle_offset = Angle(0, 0, 0), -- ЗАМЕНИТЬ после теста
+        info_pos_offset = Vector(-1, 0, 6),
+        info_angle_offset = Angle(0, -90, 0),
         info_horizontal = true,
         info_rendersize = 0.035,
         info_textcolor = Color(200, 200, 200, 150),
@@ -874,6 +874,7 @@ stek.Resources.Add("jmod_paper", {
         sandbox_name = "Paper Ream",
         sandbox_icon = "ez_resource_icons/paper.png",
         info_pos_offset = Vector(-0.5, -6.4, 0),
+        info_angle_offset = Angle(0, 0, 90),
         info_horizontal = true,
         info_rendersize = 0.025,
         info_textcolor = Color(200, 200, 200, 150),
@@ -932,11 +933,11 @@ stek.Resources.Add("jmod_propellant", {
         carryangles = Angle(0, -90, 0),
         sandbox_name = "Propellant Bottle",
         sandbox_icon = "ez_resource_icons/propellant.png",
-        info_pos_offset = Vector(0, -0.5, 10.4),
+        info_pos_offset = Vector(0.5, 0, 10.4),
         info_horizontal = false,
         info_rendersize = 0.035,
         info_textcolor = Color(200, 200, 200, 150),
-        info_iconsize = 200
+        info_iconsize = 150
     }
 })
 
@@ -952,7 +953,7 @@ stek.Resources.Add("jmod_medsupplies", {
         sandbox_name = "Medical Supplies Box",
         sandbox_icon = "ez_resource_icons/medical supplies.png",
         info_pos_offset = Vector(3.4, 0, 0),
-        info_angle_offset = Angle(0, 90, -90),
+        info_angle_offset = Angle(0, -90, -90),
         info_horizontal = false,
         info_rendersize = 0.045,
         info_textcolor = Color(200, 200, 200, 150),
