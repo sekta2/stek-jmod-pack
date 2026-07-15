@@ -8,8 +8,10 @@ ENT.Base = "ent_stek_craft_base"
 ENT.Type = "anim"
 
 ENT.Spawnable = true
-ENT.PrintName = "Test workbench"
+ENT.PrintName = "Workbench"
 ENT.Category = "STek: Machines"
 
-ENT.CraftType = "workbench"
+ENT.CraftTable = "workbench"
 ENT.Model = "models/jmod/machines/workstations/weaponworkbench01.mdl"
+
+ENT.IconOverride = "entities/ent_jack_gmod_ezworkbench.png"
