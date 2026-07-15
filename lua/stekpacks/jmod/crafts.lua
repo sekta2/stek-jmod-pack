@@ -1,3 +1,10 @@
+stek.Craft.CreateTable("primitivebench", {})
+stek.Craft.CreateTable("workbench", {})
+stek.Craft.CreateTable("fabricator", {})
+stek.Craft.CreateTable("toolbox", {})
+
+---
+
 stek.Craft.Create("jmod_toolbox", {
     name = "Toolbox",
     description = "need for prikolz",
