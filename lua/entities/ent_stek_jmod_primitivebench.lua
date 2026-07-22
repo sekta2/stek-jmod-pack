@@ -12,6 +12,7 @@ ENT.PrintName = "Crafting Table"
 ENT.Category = "STek: Machines"
 
 ENT.CraftTable = "primitivebench"
+ENT.CraftPos = Vector(0, 5, 55)
 ENT.Model = "models/jmod/machines/workstations/primitive_bench.mdl"
 
 ENT.IconOverride = "entities/ent_jack_gmod_ezprimitivebench.png"

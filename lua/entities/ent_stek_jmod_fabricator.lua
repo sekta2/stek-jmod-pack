@@ -12,6 +12,7 @@ ENT.PrintName = "Fabricator"
 ENT.Category = "STek: Machines"
 
 ENT.CraftTable = "fabricator"
+ENT.CraftPos = Vector(-10, 5, 75)
 ENT.Model = "models/jmod/machines/parts_machine.mdl"
 
 ENT.IconOverride = "entities/ent_jack_gmod_ezfabricator.png"
